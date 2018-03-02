@@ -82,9 +82,9 @@ $(document).ready(function() {
                 $(this).closest('li').addClass('active');
             });
 
-            $(window).load(function() {
+            /*$(window).load(function() {
                 $('.filtr-container').filterizr();
-            });
+            });*/
 
 
     /* ==============================================

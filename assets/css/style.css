@@ -631,7 +631,6 @@ a:active {
         padding: 20px 15px;
         color: #343434;
         text-shadow: none;
-        font-weight: 800;
         height: 100%;
     }
 
@@ -747,11 +746,10 @@ a:active {
     font-family:"Helvetica Neue","Roboto";
     color: #ffffff;
     -webkit-font-smoothing: antialiased;
-    text-transform: capitalize;
     margin-bottom: 15px;
     font-weight: 500;
-    font-size: 70px;
-    line-height:1.4
+    font-size: 8vh;
+    line-height: 1.2;
 }
 .hero p{
     font-family:"Helvetica Neue","Roboto";
@@ -1573,6 +1571,7 @@ overflow: hidden;
     border-radius: 3px;
     margin: 3px;
     opacity: 0.8;
+    font-size: 28px;
 }
 .footer_social li a:hover{
     opacity: 1;
@@ -1584,7 +1583,7 @@ overflow: hidden;
     margin: 22px 0 5px;
 }
 .footer-list li a{
-    color: #656565;;
+    color: white;
 }
 .footer-list li a:hover,.footer-list li a:focus{
     color: #0099ff;;
@@ -1658,7 +1657,7 @@ footer address a{
     text-align: center;
     color:white;
     text-transform:capitalize;
-    font-size:18px;
+    font-size: 2vh;
     margin-top: 40px;
 }
 
@@ -1666,14 +1665,20 @@ footer address a{
     margin-top:20px;
     color:white;
     text-transform:uppercase;
-    font-size: 26px
+    font-size: 3vh;
 }
+
 
 .truly_effective {
     min-height: 500px;
     height: 80vh;
 }
 
+@media (max-width: 768px){
+    .truly_effective {
+        height: 200vh;
+    }
+}
 .truly_effective > .container {
     height: 60vh;
 }
@@ -1693,4 +1698,94 @@ footer address a{
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
+}
+.blue1 {
+    background-color:#1ABCD8;
+}
+
+.rewards_section {
+    height: 80vh;
+    background-color: #2B2929;
+}
+
+.rewards_section > container {
+    height: 100%;
+}
+
+.rewards_section > container > row {
+    height: 100%;
+}
+.rewards_block {
+    height: 40vh;
+    background-color:#1ABCD8;
+    color: white;
+    padding: 60px;
+}
+.rewards-pad-block {
+    height: 40vh;
+    background: url("../img/pads.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.rewards_step_content_steps {
+    height: 40vh;
+    padding-top: 100px;
+    color:white;
+}
+.launching_soon_content {
+    padding: 40px;
+    height: 40vh;
+    color: white;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-items: end;
+}
+.launching_soon_content h4 {
+    color: #48D7F0;
+}
+.launching_soon_content h1 {
+
+}
+.rewards_step_content_steps .step_title {
+    font-weight:600;
+    font-size: 16px;
+    text-align:center;
+    border-bottom: #707070 1px solid;
+    padding: 10px;
+    
+}
+.rewards_step_content_steps .step_icon {
+    color: #FB2678;
+    display: inline-block;
+    font-size: 24px;
+    padding: 5px;
+    vertical-align: text-bottom;
+}
+.rewards_step_content_steps .step_content {
+    display: inline-block;
+    padding: 5px;
+} 
+.slider_section {
+    min-height: 80vh;
+}
+
+.home_blog .blog_item p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footer-links {
+    padding-top: 20px;    
+    color: white;
+}
+.footer_about {
+    text-align: right;
+}
+.footer_by {
+    font-size: 12px;
+    color: white;
+}
+.footer_by a {
+    font-size: 12px;
+    color: white;
 }

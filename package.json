@@ -1,0 +1,14 @@
+{
+  "name": "trulyhers",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "publish": "gh-pages -b master -d . --repo https://github.com/TrulyHers/trulyhers.github.io.git"
+  },
+  "author": "Naresh Jois",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^1.1.0"
+  }
+}
